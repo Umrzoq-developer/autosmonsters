@@ -1,0 +1,78 @@
+span {
+  margin-left: 6px;
+}
+#FIcon1:hover {
+  color: lightskyblue;
+}
+#FIcon2:hover {
+  color: lightseagreen;
+}
+#FIcon3:hover {
+  color: red;
+}
+#FIcon4:hover {
+  color: darkblue;
+}
+#FIcon5:hover {
+  color: blue;
+}
+#FIcon1 {
+  color: #939598;
+}
+#FIcon2 {
+  color: #939598;
+}
+#FIcon3 {
+  color: #939598;
+}
+#FIcon4 {
+  color: #939598;
+}
+#FIcon5 {
+  color: #939598;
+}
+#author:hover {
+  color: lightskyblue;
+  font-style: italic;
+  text-decoration-line: none;
+}
+#author {
+  color: #939598;
+}
+.fooot {
+  background: #f4f4f4;
+  color: #939598;
+}
+.foooot {
+  background: #fff;
+  color: #939598;
+}
+#gr {
+  color: #939598;
+}
+#gr:hover {
+  color: #414042;
+  text-decoration-line: none;
+}
+.title {
+  color: #414042;
+}
+.elevator {
+  text-align: center;
+  cursor: pointer;
+  /* width: 140px; */
+  margin: auto;
+  color: black;
+}
+
+.elevator:hover {
+  opacity: 0.7;
+}
+
+.elevator svg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}

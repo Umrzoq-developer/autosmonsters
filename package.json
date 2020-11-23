@@ -1,0 +1,78 @@
+{
+  "name": "auto",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@mui-treasury/components": "^1.9.1",
+    "@mui-treasury/styles": "^1.13.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
+    "classnames": "^2.2.6",
+    "feather-icons": "^4.28.0",
+    "formik": "^2.2.5",
+    "framer-motion": "^2.7.5",
+    "http-proxy-middleware": "^1.0.6",
+    "leaflet": "^1.7.1",
+    "material-ui-dropzone": "^3.5.0",
+    "mdbreact": "^4.27.0",
+    "node-sass": "4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-font-loader": "^1.1.0",
+    "react-helmet": "^6.1.0",
+    "react-hooks-helper": "^1.6.0",
+    "react-leaflet": "^3.0.2",
+    "react-redux": "^7.2.1",
+    "react-redux-loading-bar": "^5.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11",
+    "react-snap": "^1.23.0",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.14.0-alpha.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^3.0.3",
+    "styled-components": "^5.2.0",
+    "sw-precache": "^5.2.1",
+    "twin.macro": "^1.10.0",
+    "typescript": "^4.0.3",
+    "workbox-webpack-plugin": "^5.1.4",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && sw-precache --config=sw-precache-config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.6"
+  }
+}

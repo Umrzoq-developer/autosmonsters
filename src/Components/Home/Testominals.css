@@ -1,0 +1,9 @@
+#back {
+  background: linear-gradient(-80deg, white 49.9%, #7b88ab 50%);
+}
+#back2 {
+  background: linear-gradient(-80deg, #7b88ab 49.9%, white 50%);
+}
+#GColor {
+  background-color: #7b88ab;
+}

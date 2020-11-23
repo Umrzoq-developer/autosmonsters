@@ -1,0 +1,20 @@
+#ul-navbar {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  flex-direction: row;
+}
+
+.flyout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#navcol {
+  background-color: #7b88ab;
+}
+#dropdown {
+  color: white;
+  box-shadow: none;
+}
